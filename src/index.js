@@ -2,13 +2,11 @@
 import React from "react";
 import ReactDOM from "react-dom";
 
-if (module.hot) {
-  module.hot.accept();
-}
-
 // Create a react component
 const App = () => {
-  return <div>Hi there</div>;
+  return (
+    <div style={{backgroundColor: 'blue'}}>Hi there!!</div>
+  )
 };
 
 // Take the react component and show it on the screen
