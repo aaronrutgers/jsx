@@ -9,6 +9,7 @@ const App = () => {
       <CommentDetail author="Sam" timeAgo="Today at 4:45PM" />
       <CommentDetail author="Alex" timeAgo="Today at 2:00AM" />
       <CommentDetail author="Jane" timeAgo="Today at 6:00pm" />
+      
     </div>
   );
 };
